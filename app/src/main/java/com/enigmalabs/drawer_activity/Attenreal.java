@@ -3,19 +3,18 @@ package com.enigmalabs.drawer_activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
-import android.webkit.WebView;
 import android.widget.TextView;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
 public class Attenreal extends AppCompatActivity {
     String classdiv, rollno;
-    WebView web;
+    TextView text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,13 +23,7 @@ public class Attenreal extends AppCompatActivity {
         Intent intent = getIntent();
         classdiv = intent.getStringExtra("class");
         rollno = intent.getStringExtra("rollno");
-        web = (WebView)findViewById(R.id.attenreal_wv);
-        web.getSettings().setJavaScriptEnabled(true);
-        //  web.getSettings().setSupportZoom(true);  // Adds Default zoom controls
-        web.getSettings().setDisplayZoomControls(false);
-        web.getSettings().setBuiltInZoomControls(true); // Enables Zoom
-        web.getSettings().setLoadWithOverviewMode(true);
-        web.getSettings().setUseWideViewPort(true);
+        text=(TextView)findViewById(R.id.attenreal_tv);
         loadPage();
     }
 
@@ -38,7 +31,7 @@ public class Attenreal extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-             String result=null;
+             String result="";
         try {
             Document doc = Jsoup.connect("http://attendance.mec.ac.in/view4stud.php")
                     .data("class",classdiv)
@@ -46,7 +39,12 @@ public class Attenreal extends AppCompatActivity {
 // and other hidden fields which are being passed in post request.
                     .header("Content-Type", "application/x-www-form-urlencoded")
                     .post();
-            result=doc.toString();
+            Element table = doc.select("table").get(0);
+            Elements rows = table.select("tr");
+            Element row=rows.get(Integer.parseInt(rollno)+1);
+            Elements cols = row.select("td");
+            for(int i=0;i<cols.size();i++)
+                result+=" "+cols.get(i).text();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -55,7 +53,7 @@ public class Attenreal extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        web.loadData(finalResult,"text/html","UTF-8");
+                        text.setText(finalResult);
                     }
                 });
             }

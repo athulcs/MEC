@@ -763,7 +763,7 @@ int id all 0x7f090017
 int id always 0x7f090018
 int id atten_progressBar 0x7f090019
 int id atten_webview 0x7f09001a
-int id attenreal_wv 0x7f09001b
+int id attenreal_tv 0x7f09001b
 int id auto 0x7f09001c
 int id basic 0x7f09001d
 int id beginning 0x7f09001e

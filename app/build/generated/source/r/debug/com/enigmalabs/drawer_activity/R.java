@@ -3225,7 +3225,7 @@ public final class R {
     public static final int always=0x7f090018;
     public static final int atten_progressBar=0x7f090019;
     public static final int atten_webview=0x7f09001a;
-    public static final int attenreal_wv=0x7f09001b;
+    public static final int attenreal_tv=0x7f09001b;
     public static final int auto=0x7f09001c;
     public static final int basic=0x7f09001d;
     public static final int beginning=0x7f09001e;
