@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\1e986c2a830f58594c3915bcc89364f0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\bbe1a0b0d48c6a60a21c352930ac7250\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\a706bac0dce076048ab0ca0182d68fbe\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\e59bb281c6c722e7b5e3e603dfa251ae\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\9f213fe27fd08fb321aa1cfdf9186f25\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\5aeb80ce6673b7609c7fb1609fcb9600\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\81a3360cf62f6e3e9e71e2fe9fb3eb73\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\85570e882f785fb03e96029a5e21b752\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\e13482b723202b1fb9f06215e43df436\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\27745bcb2d16c3cec5fee8a879f376e0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.11.2\e3eeb8a0b4ce1db246059a41e353cd7413dad226\jsoup-1.11.2.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e3eeb8a0b4ce1db246059a41e353cd7413dad226">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\5c7c68aa39a59b522c530c938a649e0c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\07c4cf7bd671065da16c972b3ef99343\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bcb309cab2259e1859ff15f86bb78f35\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\Code\Android dev\MEC\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+
+</items>
