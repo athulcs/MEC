@@ -9,7 +9,8 @@
         android:id="@+id/textView2"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="15dp"
+        android:textSize="15sp"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/about"

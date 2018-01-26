@@ -62,18 +62,23 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    public void atten(View view){
+    public void atten(View view) {
 
-        Spinner spinner = (Spinner)findViewById(R.id.class_spinner);
-        EditText edit=(EditText) findViewById(R.id.rollno_textview);
+        Spinner spinner = (Spinner) findViewById(R.id.class_spinner);
+        EditText edit = (EditText) findViewById(R.id.rollno_textview);
         text = spinner.getSelectedItem().toString();
-        rollno=edit.getText().toString();
+        rollno = edit.getText().toString();
+        if (rollno.equalsIgnoreCase("")) {
+            Intent intent1 = new Intent(getApplicationContext(), AttendanceActivity.class);
+            intent1.putExtra("class", text);
+            startActivity(intent1);
+        } else {
+            Intent intent = new Intent(getApplicationContext(), Attenreal.class);
+            intent.putExtra("class", text);
+            intent.putExtra("rollno", rollno);
+            startActivity(intent);
 
-        Intent intent = new Intent(getApplicationContext(),Attenreal.class);
-        intent.putExtra("class",text);
-        intent.putExtra("rollno",rollno);
-        startActivity(intent);
-
+        }
     }
 
     public void sess(View view){

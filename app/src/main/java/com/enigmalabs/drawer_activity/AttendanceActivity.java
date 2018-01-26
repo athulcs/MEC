@@ -100,7 +100,7 @@ public class AttendanceActivity extends AppCompatActivity {
         setTitle("Attendance");
         setContentView(R.layout.activity_attendance);
         Intent intent=getIntent();
-        text=intent.getStringExtra("text");
+        text=intent.getStringExtra("class");
         DownloadTask task = new DownloadTask();
         task.execute("http://attendance.mec.ac.in/view4stud.php");
         //Log.i("Contents:",result);

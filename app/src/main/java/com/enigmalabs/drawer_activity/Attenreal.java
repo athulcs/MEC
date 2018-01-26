@@ -36,15 +36,18 @@ public class Attenreal extends AppCompatActivity {
             Document doc = Jsoup.connect("http://attendance.mec.ac.in/view4stud.php")
                     .data("class",classdiv)
                     .data("submit", "view")
-// and other hidden fields which are being passed in post request.
                     .header("Content-Type", "application/x-www-form-urlencoded")
                     .post();
             Element table = doc.select("table").get(0);
             Elements rows = table.select("tr");
             Element row=rows.get(Integer.parseInt(rollno)+1);
             Elements cols = row.select("td");
-            for(int i=0;i<cols.size();i++)
-                result+=" "+cols.get(i).text();
+            Element headrow=rows.get(0);
+            Elements schema=headrow.select("td");
+            for(int i=0;i<cols.size();i++) {
+                result+=schema.get(i).text() +"--";
+                result += cols.get(i).text() + "\n";
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }

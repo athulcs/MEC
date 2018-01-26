@@ -25,6 +25,7 @@ public class Fragment4 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+
         if (mListener != null) {
             mListener.onFragmentInteraction("About College");
         }
