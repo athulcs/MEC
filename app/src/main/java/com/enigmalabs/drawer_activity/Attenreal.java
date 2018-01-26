@@ -19,6 +19,7 @@ public class Attenreal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Attendance");
         setContentView(R.layout.activity_attenreal);
         Intent intent = getIntent();
         classdiv = intent.getStringExtra("class");
@@ -47,6 +48,15 @@ public class Attenreal extends AppCompatActivity {
             for(int i=0;i<cols.size();i++) {
                 result+=schema.get(i).text() +"--";
                 result += cols.get(i).text() + "\n";
+            }
+            table=doc.select("table").get(1);
+            rows=table.select("tr");
+            for(int i=0;i<rows.size();i++) {
+                row = rows.get(i);
+                cols = row.select("td");
+                for (int j = 0; j < cols.size(); j++)
+                    result += cols.get(j).text()+" ";
+                result+="\n";
             }
         } catch (IOException e) {
             e.printStackTrace();

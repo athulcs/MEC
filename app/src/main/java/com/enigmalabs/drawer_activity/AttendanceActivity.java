@@ -10,9 +10,12 @@ import android.webkit.WebView;
 import android.widget.ProgressBar;
 
 import org.json.JSONObject;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -35,9 +38,9 @@ public class AttendanceActivity extends AppCompatActivity {
 
 
         @Override
-        protected String doInBackground (String... urls){
-            result="";
-            URL url;
+        protected String doInBackground (String... urls) {
+            result = "";
+           /* URL url;
             HttpURLConnection urlconnection =null;
 
             try{
@@ -76,7 +79,19 @@ public class AttendanceActivity extends AppCompatActivity {
             catch (Exception e){
                 e.printStackTrace();
                 return "Failed";
+            }*/
+            try {
+                Document doc = Jsoup.connect("http://attendance.mec.ac.in/view4stud.php")
+                        .data("class", text)
+                        .data("submit", "view")
+                        .header("Content-Type", "application/x-www-form-urlencoded")
+                        .post();
+                result=doc.toString();
+
+            } catch (IOException e) {
+                e.printStackTrace();
             }
+            return  result;
         }
 
 
