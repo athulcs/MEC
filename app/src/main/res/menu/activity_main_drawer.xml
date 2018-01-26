@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Note:  android:checkableBehavior="single" -->
+    <group android:id="@+id/siraj_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_frag3"
+
+            android:title="Siraj" />
+    </group>
+    <group android:id="@+id/mec_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_frag1"
+
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_frag2"
+
+            android:title="Sessionals" />
+        <item
+            android:id="@+id/nav_frag4"
+
+            android:title="About College" />
+    </group>
+
+</menu>

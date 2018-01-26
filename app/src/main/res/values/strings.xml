@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">MEC</string>
+    <string-array name="class_arrays">
+        <item>C6B</item>
+        <item>C1A</item>
+        <item>C1B</item>
+        <item>C2A</item>
+        <item>C2B</item>
+        <item>C3A</item>
+        <item>C3B</item>
+        <item>C4A</item>
+        <item>C4B</item>
+        <item>C5A</item>
+        <item>C5B</item>
+        <item>C6A</item>
+        <item>C7A</item>
+        <item>C7B</item>
+        <item>C8A</item>
+        <item>C8B</item>
+        <item>E1A</item>
+        <item>E1B</item>
+        <item>E2A</item>
+        <item>E2B</item>
+        <item>E3A</item>
+        <item>E3B</item>
+        <item>E4A</item>
+        <item>E4B</item>
+        <item>E5A</item>
+        <item>E5B</item>
+        <item>E6A</item>
+        <item>E6B</item>
+        <item>E7A</item>
+        <item>E7B</item>
+        <item>E8A</item>
+        <item>E8B</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>B4</item>
+        <item>B5</item>
+        <item>B6</item>
+        <item>B7</item>
+        <item>B8</item>
+        <item>EEE1</item>
+        <item>EEE2</item>
+        <item>EEE3</item>
+        <item>EEE4</item>
+        <item>EEE5</item>
+        <item>EEE6</item>
+        <item>EEE7</item>
+        <item>EEE8</item>
+
+
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok" />
+    <string name="enter_roll_number">Enter Roll Number</string>
+    <string name="about"><![CDATA[For the past 28 years Govt. Model Engineering College has empowered its students to pave the way for excellence and innovation in the field of engineering and technology. The institute is affiliated to the APJ Abdul Kalam Technological University (KTU), and was the first self-financing college to be established by the Government of Kerala under the aegis of the institute of Human Resource Development (IHRD). The college was previously affiliated to Cochin University of Science and Technology (CUSAT) and has witnessed record breaking placements year after year. MEC was featured 37 among the top 100 engineering colleges in India by Outlook magazine and 21 among the top 25 Govt. Engineering colleges in India by DataQuest. The college offers four undergraduate courses in Computer Science & Engineering, Electronics & Communication Engineering, Electronics & Biomedical Engineering and Electrical & Electronics Engineering and five postgraduate courses, namely VLSI Design & Embedded systems, Image Processing, Signal Processing, Optoelectronics & Communication Systems, and Energy Management. Unique in its structure, methods and goals, the college is strongly rooted in a philosophy of training and research that emphasizes the intimate relationships between knowledge and its application and seeks to promote the creation of an ideal society.]]></string>
+</resources>

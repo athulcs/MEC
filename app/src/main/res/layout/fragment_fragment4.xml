@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.enigmalabs.drawer_activity.Fragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/about"
+        android:shadowColor="#a8b1b5"
+        android:shadowRadius="2"
+        android:shadowDx="1"
+        android:shadowDy="1"/>
+
+</FrameLayout>

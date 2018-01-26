@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.enigmalabs.drawer_activity.Fragment1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:maxLength="2"
+            android:onClick="atten"
+            android:text="OK" />
+
+        <EditText
+            android:id="@+id/rollno_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_spinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:hint="@string/enter_roll_number"
+            android:inputType="number"
+            android:maxLength="2"/>
+
+        <Spinner
+            android:id="@+id/class_spinner"
+            android:entries="@array/class_arrays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="93dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/rollno_textview"
+            android:layout_alignEnd="@+id/rollno_textview" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

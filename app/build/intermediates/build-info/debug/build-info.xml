@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a,armeabi"
+    api-level="25"
+    build-mode="HOT_WARM"
+    density="xhdpi"
+    format="10"
+    plugin-version="3.0.1"
+    timestamp="1516959088855"
+    token="2024697455035652097"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="214" />
+    <task
+        name="instant-run-dex"
+        duration="12" />
+    <task
+        name="instant-run-transform"
+        duration="47" />
+    <task
+        name="verifier"
+        duration="9" />
+
+    <artifact
+        location="F:\Code\Android dev\MEC\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1516956147423"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1516956479064"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1516956991688"
+        verifier="DEPENDENCY_CHANGED" >
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1516958984287"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_REMOVED"
+        timestamp="1516959010030"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1516959070234"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\builds\debug\1516959070234\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1516959088855"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\Code\Android dev\MEC\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
