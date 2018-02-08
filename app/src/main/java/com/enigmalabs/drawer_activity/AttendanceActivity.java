@@ -84,8 +84,8 @@ public class AttendanceActivity extends AppCompatActivity {
                 Document doc = Jsoup.connect("http://attendance.mec.ac.in/view4stud.php")
                         .data("class", text)
                         .data("submit", "view")
-                        .header("Content-Type", "application/x-www-form-urlencoded")
-                        .post();
+                        //.header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
+                        .get();
                 result=doc.toString();
 
             } catch (IOException e) {

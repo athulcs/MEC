@@ -1896,55 +1896,25 @@
         <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
     </style></file></source></dataSet><dataSet config="main$Generated" generated="true"><source path="F:\Code\Android dev\MEC\app\src\main\res"/><source path="F:\Code\Android dev\MEC\app\build\generated\res\rs\debug"/><source path="F:\Code\Android dev\MEC\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="F:\Code\Android dev\MEC\app\src\main\res"><file name="logo" path="F:\Code\Android dev\MEC\app\src\main\res\drawable\logo.png" qualifiers="" type="drawable"/><file name="side_nav_bar" path="F:\Code\Android dev\MEC\app\src\main\res\drawable\side_nav_bar.xml" qualifiers="" type="drawable"/><file name="text" path="F:\Code\Android dev\MEC\app\src\main\res\drawable\text.png" qualifiers="" type="drawable"/><file name="tree_lower" path="F:\Code\Android dev\MEC\app\src\main\res\drawable\tree_lower.png" qualifiers="" type="drawable"/><file name="ic_menu_camera" path="F:\Code\Android dev\MEC\app\src\main\res\drawable-v21\ic_menu_camera.xml" qualifiers="v21" type="drawable"/><file name="ic_menu_gallery" path="F:\Code\Android dev\MEC\app\src\main\res\drawable-v21\ic_menu_gallery.xml" qualifiers="v21" type="drawable"/><file name="ic_menu_manage" path="F:\Code\Android dev\MEC\app\src\main\res\drawable-v21\ic_menu_manage.xml" qualifiers="v21" type="drawable"/><file name="ic_menu_send" path="F:\Code\Android dev\MEC\app\src\main\res\drawable-v21\ic_menu_send.xml" qualifiers="v21" type="drawable"/><file name="ic_menu_share" path="F:\Code\Android dev\MEC\app\src\main\res\drawable-v21\ic_menu_share.xml" qualifiers="v21" type="drawable"/><file name="ic_menu_slideshow" path="F:\Code\Android dev\MEC\app\src\main\res\drawable-v21\ic_menu_slideshow.xml" qualifiers="v21" type="drawable"/><file name="activity_attendance" path="F:\Code\Android dev\MEC\app\src\main\res\layout\activity_attendance.xml" qualifiers="" type="layout"/><file name="activity_attenreal" path="F:\Code\Android dev\MEC\app\src\main\res\layout\activity_attenreal.xml" qualifiers="" type="layout"/><file name="activity_main" path="F:\Code\Android dev\MEC\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_sessionals" path="F:\Code\Android dev\MEC\app\src\main\res\layout\activity_sessionals.xml" qualifiers="" type="layout"/><file name="app_bar_main" path="F:\Code\Android dev\MEC\app\src\main\res\layout\app_bar_main.xml" qualifiers="" type="layout"/><file name="content_main" path="F:\Code\Android dev\MEC\app\src\main\res\layout\content_main.xml" qualifiers="" type="layout"/><file name="fragment_fragment1" path="F:\Code\Android dev\MEC\app\src\main\res\layout\fragment_fragment1.xml" qualifiers="" type="layout"/><file name="fragment_fragment2" path="F:\Code\Android dev\MEC\app\src\main\res\layout\fragment_fragment2.xml" qualifiers="" type="layout"/><file name="fragment_fragment3" path="F:\Code\Android dev\MEC\app\src\main\res\layout\fragment_fragment3.xml" qualifiers="" type="layout"/><file name="fragment_fragment4" path="F:\Code\Android dev\MEC\app\src\main\res\layout\fragment_fragment4.xml" qualifiers="" type="layout"/><file name="nav_header_main" path="F:\Code\Android dev\MEC\app\src\main\res\layout\nav_header_main.xml" qualifiers="" type="layout"/><file name="activity_main_drawer" path="F:\Code\Android dev\MEC\app\src\main\res\menu\activity_main_drawer.xml" qualifiers="" type="menu"/><file name="main" path="F:\Code\Android dev\MEC\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-hdpi\ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-mdpi\ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="F:\Code\Android dev\MEC\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="F:\Code\Android dev\MEC\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color></file><file path="F:\Code\Android dev\MEC\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="nav_header_vertical_spacing">16dp</dimen><dimen name="nav_header_height">160dp</dimen><dimen name="fab_margin">16dp</dimen></file><file path="F:\Code\Android dev\MEC\app\src\main\res\values\drawables.xml" qualifiers=""><item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item><item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item><item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item><item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item><item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item><item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item></file><file path="F:\Code\Android dev\MEC\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">MEC</string><string-array name="class_arrays">
         <item>C6B</item>
-        <item>C1A</item>
-        <item>C1B</item>
+        <item>B2</item>
+        <item>B4</item>
+        <item>B6</item>
+        <item>B8</item>
         <item>C2A</item>
         <item>C2B</item>
-        <item>C3A</item>
-        <item>C3B</item>
         <item>C4A</item>
         <item>C4B</item>
-        <item>C5A</item>
-        <item>C5B</item>
         <item>C6A</item>
-        <item>C7A</item>
-        <item>C7B</item>
         <item>C8A</item>
         <item>C8B</item>
-        <item>E1A</item>
-        <item>E1B</item>
         <item>E2A</item>
         <item>E2B</item>
-        <item>E3A</item>
-        <item>E3B</item>
         <item>E4A</item>
         <item>E4B</item>
-        <item>E5A</item>
-        <item>E5B</item>
         <item>E6A</item>
         <item>E6B</item>
-        <item>E7A</item>
-        <item>E7B</item>
-        <item>E8A</item>
-        <item>E8B</item>
-        <item>B1</item>
-        <item>B2</item>
-        <item>B3</item>
-        <item>B4</item>
-        <item>B5</item>
-        <item>B6</item>
-        <item>B7</item>
-        <item>B8</item>
-        <item>EEE1</item>
-        <item>EEE2</item>
-        <item>EEE3</item>
-        <item>EEE4</item>
-        <item>EEE5</item>
-        <item>EEE6</item>
-        <item>EEE7</item>
-        <item>EEE8</item>
-
-
+        <item>EE2</item>
+        <item>EE4</item>
     </string-array><string name="navigation_drawer_open">Open navigation drawer</string><string name="navigation_drawer_close">Close navigation drawer</string><string name="action_settings">Settings</string><string name="hello_blank_fragment">Hello blank fragment</string><string name="ok"/><string name="enter_roll_number">Enter Roll Number</string><string name="about"><![CDATA[For the past 28 years Govt. Model Engineering College has empowered its students to pave the way for excellence and innovation in the field of engineering and technology. The institute is affiliated to the APJ Abdul Kalam Technological University (KTU), and was the first self-financing college to be established by the Government of Kerala under the aegis of the institute of Human Resource Development (IHRD). The college was previously affiliated to Cochin University of Science and Technology (CUSAT) and has witnessed record breaking placements year after year. MEC was featured 37 among the top 100 engineering colleges in India by Outlook magazine and 21 among the top 25 Govt. Engineering colleges in India by DataQuest. The college offers four undergraduate courses in Computer Science & Engineering, Electronics & Communication Engineering, Electronics & Biomedical Engineering and Electrical & Electronics Engineering and five postgraduate courses, namely VLSI Design & Embedded systems, Image Processing, Signal Processing, Optoelectronics & Communication Systems, and Energy Management. Unique in its structure, methods and goals, the college is strongly rooted in a philosophy of training and research that emphasizes the intimate relationships between knowledge and its application and seeks to promote the creation of an ideal society.]]></string></file><file path="F:\Code\Android dev\MEC\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>

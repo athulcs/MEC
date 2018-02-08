@@ -37,8 +37,8 @@ public class Attenreal extends AppCompatActivity {
             Document doc = Jsoup.connect("http://attendance.mec.ac.in/view4stud.php")
                     .data("class",classdiv)
                     .data("submit", "view")
-                    .header("Content-Type", "application/x-www-form-urlencoded")
-                    .post();
+                    //.header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
+                    .get();
             Element table = doc.select("table").get(0);
             Elements rows = table.select("tr");
             Element row=rows.get(Integer.parseInt(rollno)+1);

@@ -2,55 +2,25 @@
     <string name="app_name">MEC</string>
     <string-array name="class_arrays">
         <item>C6B</item>
-        <item>C1A</item>
-        <item>C1B</item>
+        <item>B2</item>
+        <item>B4</item>
+        <item>B6</item>
+        <item>B8</item>
         <item>C2A</item>
         <item>C2B</item>
-        <item>C3A</item>
-        <item>C3B</item>
         <item>C4A</item>
         <item>C4B</item>
-        <item>C5A</item>
-        <item>C5B</item>
         <item>C6A</item>
-        <item>C7A</item>
-        <item>C7B</item>
         <item>C8A</item>
         <item>C8B</item>
-        <item>E1A</item>
-        <item>E1B</item>
         <item>E2A</item>
         <item>E2B</item>
-        <item>E3A</item>
-        <item>E3B</item>
         <item>E4A</item>
         <item>E4B</item>
-        <item>E5A</item>
-        <item>E5B</item>
         <item>E6A</item>
         <item>E6B</item>
-        <item>E7A</item>
-        <item>E7B</item>
-        <item>E8A</item>
-        <item>E8B</item>
-        <item>B1</item>
-        <item>B2</item>
-        <item>B3</item>
-        <item>B4</item>
-        <item>B5</item>
-        <item>B6</item>
-        <item>B7</item>
-        <item>B8</item>
-        <item>EEE1</item>
-        <item>EEE2</item>
-        <item>EEE3</item>
-        <item>EEE4</item>
-        <item>EEE5</item>
-        <item>EEE6</item>
-        <item>EEE7</item>
-        <item>EEE8</item>
-
-
+        <item>EE2</item>
+        <item>EE4</item>
     </string-array>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
