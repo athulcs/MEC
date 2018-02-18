@@ -8,11 +8,14 @@
 
 
     <TextView
-        android:id="@+id/attenreal_tv"
-        android:textSize="16sp"
-        android:fontFamily="serif-monospace"
-        android:layout_width="match_parent"
-        android:padding="10dp"
-        android:layout_height="match_parent" />
+    android:scrollbars="vertical"
+    android:id="@+id/attenreal_tv"
+    android:textSize="16sp"
+    android:fontFamily="serif-monospace"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent" />
+
+
 
 </android.support.constraint.ConstraintLayout>
