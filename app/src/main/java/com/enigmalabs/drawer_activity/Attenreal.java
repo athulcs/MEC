@@ -46,6 +46,7 @@ public class Attenreal extends AppCompatActivity {
                     //.header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
                     .get();
             float bunked;
+            float canbunk;
             float percent=0;
             Element table = doc.select("table").get(0);
             Elements rows = table.select("tr");
@@ -62,8 +63,12 @@ public class Attenreal extends AppCompatActivity {
                     while (m.find()) {
                         percent = 100 - Float.valueOf(cols.get(i).text());
                         bunked = (Float.valueOf(m.group(1)) * percent) / 100;
-                        //Log.i("Bunked",String.valueOf(Math.round(bunked)));
-                        result+="Bunked="+String.valueOf(Math.round(bunked))+"\n";
+                        percent = Float.valueOf(cols.get(i).text())-75;
+                        canbunk = (Float.valueOf(m.group(1)) * percent) / 100;
+                        if(canbunk<0)
+                            canbunk=0;
+                        Log.i("canbunk",String.valueOf(canbunk));
+                        result+="Bunked="+String.valueOf(Math.round(bunked))+" CanBunk="+String.valueOf((int)canbunk)+"\n";
                     }
                 }
                 else

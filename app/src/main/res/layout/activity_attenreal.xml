@@ -10,7 +10,7 @@
     <TextView
     android:scrollbars="vertical"
     android:id="@+id/attenreal_tv"
-    android:textSize="16sp"
+    android:textSize="15sp"
     android:fontFamily="serif-monospace"
     android:layout_width="match_parent"
     android:padding="10dp"
