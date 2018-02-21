@@ -21,6 +21,7 @@
         <item>E6B</item>
         <item>EE2</item>
         <item>EE4</item>
+        <item>EE8</item>
     </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>

@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_popup_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\color_abc_btn_colored_text_material.xml.flat",
@@ -84,12 +84,12 @@
         "source": "F:\\Code\\Android dev\\MEC\\app\\src\\main\\res\\drawable-v21\\ic_menu_send.xml"
     },
     {
-        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -268,12 +268,12 @@
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\layout_content_main.xml.flat",
-        "source": "F:\\Code\\Android dev\\MEC\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\color_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\layout_content_main.xml.flat",
+        "source": "F:\\Code\\Android dev\\MEC\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -320,12 +320,12 @@
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
-        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\layout-v11_notification_template_big_media.xml.flat",
@@ -396,12 +396,12 @@
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\layout-v11_notification_template_big_media_narrow.xml.flat",
@@ -488,16 +488,16 @@
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.2.0.aar\\9f213fe27fd08fb321aa1cfdf9186f25\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_textfield_search_material.xml.flat",
-        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_text_cursor_material.xml.flat",
         "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_textfield_search_material.xml.flat",
+        "source": "C:\\Users\\Athul CS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\27745bcb2d16c3cec5fee8a879f376e0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "F:\\Code\\Android dev\\MEC\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
