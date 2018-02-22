@@ -1,6 +1,7 @@
 package com.enigmalabs.drawer_activity;
 
 import android.content.Intent;
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
@@ -31,7 +32,23 @@ public class Attenreal extends AppCompatActivity {
         rollno = intent.getStringExtra("rollno");
         text=(TextView)findViewById(R.id.attenreal_tv);
         text.setMovementMethod(new ScrollingMovementMethod());
+        if(savedInstanceState!=null){
+            if(savedInstanceState.containsKey("persist")){
+                String prev= savedInstanceState
+                        .getString("persist");
+                text.setText(prev);
+            }
+        }
+        else
         loadPage();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        String atten=text.getText().toString();
+        outState.putString("persist",atten);
+
     }
 
     void loadPage() {
