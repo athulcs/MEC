@@ -1,47 +1,50 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.enigmalabs.drawer_activity.Fragment1">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/ok_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/rollno_textview"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="68dp"
-            android:maxLength="2"
-            android:onClick="atten"
-            android:text="OK" />
+    <Spinner
+        android:id="@+id/class_spinner"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="96dp"
+        android:entries="@array/class_arrays"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/rollno_textview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/class_spinner"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="31dp"
-            android:ems="10"
-            android:hint="@string/enter_roll_number"
-            android:inputType="number"
-            android:maxLength="2"/>
+    <EditText
+        android:id="@+id/rollno_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/enter_roll_number"
+        android:inputType="number"
+        android:maxLength="2"
+        app:layout_constraintEnd_toEndOf="@+id/class_spinner"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/class_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/class_spinner" />
 
-        <Spinner
-            android:id="@+id/class_spinner"
-            android:entries="@array/class_arrays"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="93dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignStart="@+id/rollno_textview"
-            android:layout_alignEnd="@+id/rollno_textview" />
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:onClick="atten"
+        android:text="OK"
+        app:layout_constraintEnd_toEndOf="@+id/rollno_textview"
+        app:layout_constraintStart_toStartOf="@+id/rollno_textview"
+        app:layout_constraintTop_toBottomOf="@+id/rollno_textview" />
 
-    </RelativeLayout>
 
 
-</FrameLayout>
+</android.support.constraint.ConstraintLayout>
